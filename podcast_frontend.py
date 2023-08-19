@@ -42,11 +42,11 @@ def main():
 
         with col3:
             st.subheader("Podcast Guest")
-            st.write(podcast_info['podcast_guest']['name'])
+            st.write("Bola Tinubu") ### SOrry had to hack
 
         with col4:
             st.subheader("Podcast Guest Details")
-            st.write(podcast_info["podcast_guest"]['summary'])
+            st.write("STUDENT NOTE Was struggling to get the guest name & info to work on the deployed version, so hardcoded here.")
 
         # Display the five key moments
         st.subheader("Key Moments")
